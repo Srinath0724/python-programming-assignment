@@ -1,0 +1,25 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_above_standard (test_milkrate.OriginalCalculatorTests.test_above_standard) ... ok
+test_below_standard (test_milkrate.OriginalCalculatorTests.test_below_standard) ... ok
+test_fat_bounds (test_milkrate.OriginalCalculatorTests.test_fat_bounds) ... ok
+test_negative_litres_rejected (test_milkrate.OriginalCalculatorTests.test_negative_litres_rejected) ... ok
+test_payout (test_milkrate.OriginalCalculatorTests.test_payout) ... ok
+test_standard_rate (test_milkrate.OriginalCalculatorTests.test_standard_rate) ... ok
+test_bonus_threshold_strictly_greater_than_500 (test_milkrate.SeasonalCalculatorTests.test_bonus_threshold_strictly_greater_than_500) ... ok
+test_seasonal_base_rate (test_milkrate.SeasonalCalculatorTests.test_seasonal_base_rate) ... ok
+test_seasonal_fat_step (test_milkrate.SeasonalCalculatorTests.test_seasonal_fat_step) ... ok
+test_ten_day_total_bonus (test_milkrate.SeasonalCalculatorTests.test_ten_day_total_bonus) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.001s
+
+OK
